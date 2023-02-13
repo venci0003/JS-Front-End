@@ -1,0 +1,28 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+article{
+    display: inline-block;
+    width: 900px;
+    margin-right: 80px;
+margin-left: 20px;
+    line-height: 24px;
+}
+
+aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+}
+
+h2{
+    margin-top: 45px;
+}
+
