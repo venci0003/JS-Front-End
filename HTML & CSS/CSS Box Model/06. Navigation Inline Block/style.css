@@ -1,0 +1,42 @@
+html {
+  font-family:'\'Helvetica\',sans-serif';
+}
+
+header nav {
+  display: inline-block;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+header nav ul li {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #03c03c;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0px;
+}
+
+main h1 {
+  font-weight: 400;
+}
+
+hr {
+  font-weight: bold;
+  color: black;
+  background-color: black;
+  height: 2px;
+  border: none;
+}
