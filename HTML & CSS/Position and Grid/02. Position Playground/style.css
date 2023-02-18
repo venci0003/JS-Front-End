@@ -1,0 +1,60 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+
+body {
+    margin: 0px;
+  }
+  .viewport {
+    position: relative;
+    height: 100vh;
+  }
+  .card {
+    display: block;
+    position: relative;
+  }
+  .viewport:nth-child(1) {
+    background: linear-gradient(
+      90deg,
+      rgba(31, 111, 157, 1) 0%,
+      rgba(44, 145, 159, 1) 35%,
+      rgba(64, 197, 161, 1) 100%
+    );
+  }
+  .viewport:nth-child(1) img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .viewport:nth-child(2) img{
+    width: 500px;
+    height: 900px;
+    object-fit: cover;
+  }
+  .viewport:nth-child(2) {
+    background: linear-gradient(
+      90deg,
+      rgba(170, 54, 114, 1) 0%,
+      rgba(196, 104, 51, 1) 35%,
+      rgba(206, 121, 30, 1) 100%
+    );
+  }
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .viewport .card .icon1,.icon2{
+    color: white;
+    position: absolute;
+    
+  }
+  .icon1{
+    top: 236px;
+    right: 14px;
+    font-size: 40px;
+  }
+  .icon2{
+    top: 850px;
+    right: 14px;
+    font-size: 40px;
+  }
