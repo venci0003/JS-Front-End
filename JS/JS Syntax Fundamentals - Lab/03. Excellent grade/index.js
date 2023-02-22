@@ -1,5 +1,5 @@
-function excellentGrade(gradeInput) {
-  if (gradeInput >= 5.5) {
+function excellentGrade(gradeValue) {
+  if (gradeValue >= 5.5) {
     console.log("Excellent");
   }
   else{
