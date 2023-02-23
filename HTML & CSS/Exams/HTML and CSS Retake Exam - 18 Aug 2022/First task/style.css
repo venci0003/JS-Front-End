@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+html {
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background-image: url(images/background.png);
+  height: 100vh;
+  
+}
+
+.card {
+  margin: 0px auto;
+  margin-top: 160px;
+  border-radius: 24px;
+  background-image: url(images/form-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 835px;
+  height: 600px;
+  box-shadow: 20px 18px 40px 2px #888888;
+}
+
+.card-content {
+  display: flex;
+  padding: 30px 60px 30px 60px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.names-inputs {
+  display: flex;
+  gap: 14px;
+}
+
+.names-inputs label {
+  margin-bottom: 8px;
+}
+
+.first-name-input,
+.last-name-input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.first-name-input input,
+.last-name-input input{
+    height: 35px;
+    border:1px solid lightgrey ;
+}
+
+
+.first-name-input label,
+.last-name-input label{
+color: rgba(111,116,115,255);
+font-size: 13px;
+}
+
+
+input {
+  border-radius: 24px;
+  height: 30px;
+}
+
+button {
+  border-radius: 24px;
+  padding: 10px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgba(174, 60, 51, 255);
+  color: white;
+  font-size: 14px;
+}
+
+.title-text{
+  margin-right: 100px;
+}
+
+.other-forms{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.other-forms label{
+    color: rgba(111,116,115,255);
+    font-size: 13px;
+}
+
+.other-forms input{
+    margin: 14px 0px;
+    width: 360px;
+    height: 35px;
+    
+    border:1px solid lightgrey ;
+}
+
+.check-box-input{
+    display: flex;
+    align-items: center;
+}
+
+.check-box-input input{
+    margin-right: 10px;
+}
+.check-box-input label{
+    font-size: 14px;
+    color: rgba(111,116,115,255);
+}
+
+.button-object{
+margin-top: 25px;
+margin-left: 110px;
+}
+
+.title-text {
+  margin-top: 45px;
+}
+
+
+
