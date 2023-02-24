@@ -1,16 +1,13 @@
-function wordOccurences(textInput,wordOccurence){
-    
-    let count = 0;
+function wordOccurences(textInput, wordOccurence) {
+  let count = 0;
 
-   let textArray = textInput.split(" ");
+  let textArray = textInput.split(" ");
 
-   for(const word of textArray){
-    if(word === wordOccurence){
-        count++;
+  for (const word of textArray) {
+    if (word === wordOccurence) {
+      count++;
     }
-   }
+  }
 
-    console.log(count);
+  console.log(count);
 }
-
-wordOccurences('This is a word and it also is a sentence','is');
