@@ -1,4 +1,3 @@
-
 function cat(array) {
     class Cat {
       constructor(name, age) {
