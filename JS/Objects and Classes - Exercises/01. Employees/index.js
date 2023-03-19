@@ -1,9 +1,13 @@
 function employees(array) {
-  for (const name of array) {
-    let currentName = name;
+  let object = {};
 
-    console.log(
-      `Name: ${currentName} -- Personal Number: ${currentName.length}`
-    );
+  for (let index = 0; index < array.length; index++) {
+    object[array[index]] = array[index].length;
+  }
+
+  let result = Object.entries(object);
+
+  for (const [key, value] of result) {
+    console.log(`Name: ${key} -- Personal Number: ${value}`);
   }
 }
