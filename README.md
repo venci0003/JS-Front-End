@@ -10,3 +10,6 @@
 - Working with linear structures
 - Information extraction and manipulation of the DOM tree
 - Working with HTTP and REST
+
+## Certificates
+![HTML   CSS - January 2023 - Certificate](https://user-images.githubusercontent.com/84270419/226211694-bd37105a-4925-46a6-ae5e-bc5cd642c7f8.jpeg)
